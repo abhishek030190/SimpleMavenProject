@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="10" parallel="true" thread-count="2" preserve-order="true" name="C:/Users/ABHISHEK/IdeaProjects/SimpleMavenProject">
+        <classes>
+            <class name="BasicOfTestng"/>
+            <class name="DependOnMethod"/>
+
+<!--<class name="DependsOnGroup">
+
+</class>-->
+        </classes>
+    </test>
+</suite>

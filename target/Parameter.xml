@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="courseName" value="java"/>
+    <parameter name="cityName" value="mumbai"/>
+
+    <test verbose="10" preserve-order="true" name="C:/Users/ABHISHEK/IdeaProjects/SimpleMavenProject">
+        <classes>
+            <class name="ParameterExample"/>
+
+
+        </classes>
+    </test>
+</suite>
