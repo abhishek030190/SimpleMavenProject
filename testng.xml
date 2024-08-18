@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="Abhishek"/>
+        </run>
+    </groups>
+    <test verbose="10" preserve-order="true" name="C:/Users/ABHISHEK/IdeaProjects/SimpleMavenProject">
+        <classes>
+            <class name="BasicOfTestng">
+            <methods>
+                <include name="Test1"/>
+                <include name="TestExample2"/>
+                <include name="Example2"/>
+                <include name="aftermathod"/>
+            </methods>
+        </class>
+<!--<class name="DependsOnGroup">
+
+</class>-->
+        </classes>
+    </test>
+</suite>
