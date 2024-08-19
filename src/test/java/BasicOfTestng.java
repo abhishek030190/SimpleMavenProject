@@ -11,6 +11,8 @@ public static WebDriver driver;
     public void Test1() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\ABHISHEK\\Downloads\\chromedriver-win64\\chromedriver-win64\\Chromedriver.exe");
         driver = new ChromeDriver();
+system.out.println("hello world");
+
     }
         @Test
         public void TestExample2() {
