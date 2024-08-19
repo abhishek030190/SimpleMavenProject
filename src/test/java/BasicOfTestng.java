@@ -25,10 +25,13 @@ system.out.println("hello world");
             driver.get("https://www.amazon.in/");
             driver.manage().window().maximize();
        system.out.println("hello world");
+system.out.println("hello world.....................123");
+
         }
         @Test
 public void Example3(){
 system.out.println("this is the example 3")}
-      
+   system.out.println("hello world example .....3");
+   
     }
 
