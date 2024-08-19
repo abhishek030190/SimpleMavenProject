@@ -16,16 +16,17 @@ public static WebDriver driver;
         public void TestExample2() {
             driver.get("https://jqueryui.com/datepicker/");
             driver.manage().window().maximize();
+system.out.println("hello world");
         }
          @Test
         public void Example2(){
             driver.get("https://www.amazon.in/");
             driver.manage().window().maximize();
+       system.out.println("hello world");
         }
-
-        @AfterMethod
-        public void aftermathod(){
-            driver.close();
-        }
+        @Test
+public void Example3(){
+system.out.println("this is the example 3")}
+      
     }
 
