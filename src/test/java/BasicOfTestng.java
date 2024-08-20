@@ -25,7 +25,7 @@ public static WebDriver driver;
 
         @AfterMethod
         public void aftermathod(){
-            driver.close();
+        
         }
     }
 
